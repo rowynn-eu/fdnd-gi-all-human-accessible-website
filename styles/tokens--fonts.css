@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Geist";
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+  src:
+        url(../fonts/geist/Geist-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: "Geist";
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: italic;
+  src:
+        url(../fonts/geist/Geist-Italic-VariableFont_wght.ttf) format(truetype);
+}
+
+
+@font-face {
+  font-family: "Geist Mono";
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: normal;
+    src:
+        url(../fonts/Geist_Mono/GeistMono-VariableFont_wght.ttf) format(truetype);
+}
+
+
+@font-face {
+  font-family: "Geist Mono";
+  font-optical-sizing: auto;
+  font-weight: 100 900;
+  font-style: italic;
+    src:
+        url(../fonts/Geist_Mono/GeistMono-Italic-VariableFont_wght.ttf) format(truetype);
+}
