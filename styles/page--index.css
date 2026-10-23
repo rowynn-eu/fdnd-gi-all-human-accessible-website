@@ -1,2 +1,9 @@
 
 /* CSS dat alleen bedoeld is voor de hoofdpagina */
+
+ul:nth-child(2) {
+
+    svg {
+        width: 5%;
+    }
+}

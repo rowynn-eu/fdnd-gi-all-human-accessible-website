@@ -1,2 +1,12 @@
 
 /* Stijling van afbeeldingen maar ook svg */
+
+
+img, svg {
+    max-width:100%;
+    height: auto;
+}
+
+path {
+    fill: var(--fg-0);
+}
