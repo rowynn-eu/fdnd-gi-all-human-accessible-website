@@ -1,2 +1,22 @@
 
 /* Typografie, grootte, etc. */
+
+body {
+    line-height: 1.4;
+    color: var(--fg-0);
+    background: var(--bg-0);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Geist", sans-serif;
+    font-weight: 600;
+}
+
+p, a, ol, ul {
+    font-family: "Geist Mono", serif;
+    font-weight: 400;
+}
+
+article, section {
+    text-wrap: pretty;
+}

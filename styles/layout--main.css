@@ -1,2 +1,15 @@
 
 /* Main element & kinderen css. */
+
+main {
+    display:grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+
+    margin: var(--spacing-m)
+}
+
+
+span {
+    color: var(--accent);
+}

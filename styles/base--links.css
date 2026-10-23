@@ -1,2 +1,16 @@
 
 /* Stijling van links / links die lijken op knoppen voor CTA */
+
+a, button, input {
+    cursor: pointer;
+}
+
+a {
+color: var(--accent);
+text-underline-offset: calc(var(--spacing-s)/2);
+text-decoration-thickness: 1px;
+}
+
+a:focus-visible {
+    text-decoration: none;
+}
