@@ -1,2 +1,20 @@
 
 /* Stijling van controls */
+
+.skip {
+    z-index: 5;
+    padding: 1em 5em;
+    position: absolute;
+    translate: -200%;
+    
+     &:focus {
+        outline-color: var(--fg-1);
+        color: var(--bg-0) ;
+        background-color: var(--accent);
+        translate: unset;
+    }
+}
+
+*:focus {
+    outline-color: var(--accent);
+}
