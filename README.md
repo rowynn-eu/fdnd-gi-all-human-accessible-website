@@ -36,4 +36,4 @@ Ontwerp en maak voor een opdrachtgever een website toegankelijk volgens WCAG ric
 ## Licentie
 This project is licensed under the terms of the [MIT license](./LICENSE).
 
-De instructie van deze leertaak staat in [INSTRUCTIONS](https://github.com/fdnd-task/all-human-accessible-website/blob/main/docs/INSTRUCTIONS.md)
+De instructie van deze leertaak staat in [INSTRUCTIONS](https://github.com/fdnd-task/all-human-accessible-website/wiki)
