@@ -7,11 +7,11 @@ const menuClick = document.querySelector("#mobile-menu")
 menuClick.addEventListener("click", openMenu)
 
 function openMenu() {
-    menuNav.classList.toggle("is-open")
+    menuNav.classList.toggle("--mobile-menu-is-open")
 
-    if (menuNav.classList.contains("is-open")) {
-        console.log("<nav> has is-open")
+    if (menuNav.classList.contains("--mobile-menu-is-open")) {
+        console.log("<nav> has --mobile-menu-is-open")
     } else {
-        console.log("<nav> does not have is-open")
+        console.log("<nav> does not have --mobile-menu-is-open")
     }
 }
