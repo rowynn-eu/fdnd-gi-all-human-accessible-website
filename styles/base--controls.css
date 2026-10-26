@@ -1,5 +1,26 @@
 
 /* Stijling van controls */
+*:focus {
+    outline-color: var(--accent);
+}
+
+label:has(input[type="search"]) {
+    margin-top: 2em;
+
+    display: grid;
+    align-items: center;
+
+    input, svg {
+        grid-area: 1 / 1;
+    }
+    
+    svg {
+        aspect-ratio: 1 / 1 ;
+        width:2;
+        height: 2em;
+    }
+
+}
 
 .skip {
     z-index: 20;
@@ -16,6 +37,3 @@
     }
 }
 
-*:focus {
-    outline-color: var(--accent);
-}
