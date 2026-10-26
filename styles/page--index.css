@@ -37,8 +37,8 @@ main {
     
     ul:nth-of-type(1) {
         display: grid;
-        grid-template-columns: repeat(auto-fit, 6.6em);
-        gap: var(--spacing-s);
+        grid-template-columns: repeat(auto-fit, 5.6rem);
+        gap: var(--spacing-xs);
         justify-content: center;
         align-content: center;
 
@@ -48,7 +48,7 @@ main {
 
         li:last-child {
             grid-column: span 2;
-            justify-self: center;
+            /* justify-self: center; */
             align-self: center;
         }
 
@@ -62,6 +62,7 @@ main {
             color: var(--bg-0);
             background-color: var(--accent);
 
+            width: 90%;
             padding: var(--spacing-m);
             border-radius: var(--spacing-xs);
             
@@ -73,8 +74,12 @@ main {
             }
         }
 
+        /* ***************** */
+        /* recent toegevoegd */
+        /* ***************** */
+
         @media (min-width: 700px) {
-            grid-template-columns: repeat(6, 1fr);
+            grid-template-columns: repeat(5, 1fr);
         }
     }
 }
