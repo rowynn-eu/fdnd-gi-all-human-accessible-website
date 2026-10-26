@@ -40,6 +40,7 @@ main {
         grid-template-columns: repeat(auto-fit, 6.6em);
         gap: var(--spacing-s);
         justify-content: center;
+        align-content: center;
 
         padding-left: 0;
         margin: 0;
@@ -47,6 +48,8 @@ main {
 
         li:last-child {
             grid-column: span 2;
+            justify-self: center;
+            align-self: center;
         }
 
         svg {
@@ -60,6 +63,7 @@ main {
             background-color: var(--accent);
 
             padding: var(--spacing-m);
+            border-radius: var(--spacing-xs);
             
             text-align: center;
             text-decoration: none;
@@ -67,6 +71,10 @@ main {
             &:hover {
                 text-decoration: underline;
             }
+        }
+
+        @media (min-width: 700px) {
+            grid-template-columns: repeat(6, 1fr);
         }
     }
 }
