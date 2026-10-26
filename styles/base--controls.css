@@ -8,16 +8,16 @@ label:has(input[type="search"]) {
     margin-top: 2em;
 
     display: grid;
-    align-items: center;
 
     input, svg {
         grid-area: 1 / 1;
     }
     
     svg {
+        justify-self: start;
         aspect-ratio: 1 / 1 ;
-        width:2;
-        height: 2em;
+        width: auto;
+        height: 3em;
     }
 
 }

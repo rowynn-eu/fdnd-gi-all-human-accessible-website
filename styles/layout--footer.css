@@ -15,13 +15,17 @@ footer {
         margin: var(--spacing-m);
     }
 
-    a {
-        color:var(--bg-0);
-    }
-
     ul {
         list-style: none;
         padding-left: 0;
+    }
+    
+    li {
+        padding-bottom: var(--spacing-m);
+    }
+
+    a {
+        color:var(--bg-0);
     }
 
 
