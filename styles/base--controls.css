@@ -15,7 +15,7 @@ button, input {
 /* ZOEKEN label>input */
 /* ****************** */
 
-label:has(input[type="search"]) {
+form:has(input[type="search"]) {
     margin-top: 2em;
 
     display: grid;
@@ -58,4 +58,6 @@ label:has(input[type="search"]) {
 }
 
 
-
+.hidden {
+    translate: -200%;
+}
