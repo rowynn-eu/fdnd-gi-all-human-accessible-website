@@ -10,8 +10,8 @@ function openMenu() {
     menuNav.classList.toggle("--mobile-menu-is-open")
 
     if (menuNav.classList.contains("--mobile-menu-is-open")) {
-        console.log("<nav> has --mobile-menu-is-open")
+        console.log("--mobile-menu-is-open true")
     } else {
-        console.log("<nav> does not have --mobile-menu-is-open")
+        console.log("--mobile-menu-is-open false")
     }
 }

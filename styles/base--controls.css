@@ -2,8 +2,8 @@
 /* Stijling van controls */
 
 .skip {
-    z-index: 5;
-    padding: 1em 5em;
+    z-index: 20;
+    padding: 1em 1em;
     position: absolute;
     translate: -200%;
     

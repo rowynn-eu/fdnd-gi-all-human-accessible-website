@@ -1,2 +1,8 @@
 
 /* Footer & kinderen css */
+
+footer {
+
+    margin: var(--spacing-m)
+
+}
