@@ -11,9 +11,9 @@ button, input {
     cursor: pointer;
 }
 
-/* ****** */
-/* zoeken */
-/* ****** */
+/* ****************** */
+/* ZOEKEN label>input */
+/* ****************** */
 
 label:has(input[type="search"]) {
     margin-top: 2em;
@@ -24,23 +24,23 @@ label:has(input[type="search"]) {
         grid-area: 1 / 1;
     }
     
+    input {
+        padding-left: var(--spacing-xl);
+    }
+
     svg {
         justify-self: start;
         aspect-ratio: 1 / 1 ;
         width: auto;
         height: 3em;
-    }
-
-    input[type="search"] {
-        padding-left: 1em;
+        padding-left: var(--spacing-xs);
     }
 
 }
 
-
-/* ********** */
-/* skip-label */
-/* ********** */
+/* *********************************** */
+/* skip-label a.d.h.v. ischa we <3 web */
+/* *********************************** */
 
 .skip {
     z-index: 20;
