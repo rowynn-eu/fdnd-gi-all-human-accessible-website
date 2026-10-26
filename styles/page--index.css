@@ -135,8 +135,13 @@ main {
     section > div:nth-of-type(1) {
 
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(144px, 320px));
-        \
+        grid-template-columns: 
+        repeat(auto-fit, clamp(9rem, -0.2632rem + 46.3158vw, 20rem));
+
+        justify-content: center;
+        align-items: center;
+        
+
     }
 
 }
