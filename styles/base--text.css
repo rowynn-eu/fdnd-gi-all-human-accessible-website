@@ -21,3 +21,8 @@ p, a, em, ol, ul {
 article, section {
     text-wrap: pretty;
 }
+
+*::selection {
+    color: var(--bg-0);
+    background: var(--accent);
+}

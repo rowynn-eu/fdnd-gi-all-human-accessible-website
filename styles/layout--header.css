@@ -118,12 +118,14 @@ header {
             position: unset;
             
             display: flex;
-            justify-content: center;
             align-items: center;
+        
             gap: var(--spacing-x);
+            padding-right: 1em;
 
             a {
                 flex-shrink: 0;
+                justify-self:end;
                 background-color: unset;
                 border: unset;
                 
@@ -136,6 +138,9 @@ header {
             a:nth-of-type(6) {
                 order: 0;
                 margin-bottom: 0;
+                margin-left: 0em;
+                
+
                 color:var(--bg-0);
                 background-color: var(--accent);
 

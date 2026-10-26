@@ -4,7 +4,8 @@
 .skip {
     z-index: 20;
     padding: 1em 1em;
-    position: absolute;
+    display: block;
+    position: fixed;
     translate: -200%;
     
      &:focus {
