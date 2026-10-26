@@ -31,15 +31,42 @@ main {
 
     }
 
-    
     /* ***************** */
     /* recent toegevoegd */
     /* ***************** */
     
     ul:nth-of-type(1) {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 6.6em);
+        gap: var(--spacing-s);
+        justify-content: center;
+
+        padding-left: 0;
+        margin: 0;
+
+
+        li:last-child {
+            grid-column: span 2;
+        }
 
         svg {
-            width: 2em;
+            width: 3em;
+        }
+
+        a {
+            display: block;
+
+            color: var(--bg-0);
+            background-color: var(--accent);
+
+            padding: var(--spacing-m);
+            
+            text-align: center;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }
