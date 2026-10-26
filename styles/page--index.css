@@ -9,7 +9,7 @@ main {
     /* stats? */
     /* ****** */
 
-    div {
+    > div:nth-of-type(1) {
         border-top: 1px solid var(--fg-0);
         border-bottom: 1px solid var(--fg-0);
         padding: var(--spacing-m) 0;
@@ -27,8 +27,6 @@ main {
             column-gap: var(--spacing-l);
             row-gap: 0;
         }
-
-
     }
 
     /* ***************** */
@@ -36,6 +34,7 @@ main {
     /* ***************** */
     
     ul:nth-of-type(1) {
+        
         display: grid;
         grid-template-columns: repeat(auto-fit, 5.6rem);
         gap: var(--spacing-xs);
@@ -74,12 +73,70 @@ main {
             }
         }
 
-        /* ***************** */
-        /* recent toegevoegd */
-        /* ***************** */
+        /* ****** */
+        /* layout */
+        /* ****** */
 
         @media (min-width: 700px) {
             grid-template-columns: repeat(5, 1fr);
         }
     }
+
+    /* ******************* */
+    /* maak er gebruik van */
+    /* ******************* */
+
+    section:nth-of-type(2) {
+        article {
+            display: grid;
+
+            svg {
+                height: 3em;
+                width: auto;
+                order:-1;
+            }  
+
+            a {
+                display: block;
+
+                color: var(--bg-0);
+                background-color: var(--accent);
+
+                padding: var(--spacing-s);
+                border-radius: var(--spacing-xs);
+                
+                text-align: center;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+
+        @media (min-width: 700px) {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: var(--spacing-m);
+
+            h2 {
+                grid-column: 1 / -1;
+            }
+            
+        }
+    }
+
+    /* **************** */
+    /* illustraties cta */
+    /* **************** */
+
+    section > div:nth-of-type(1) {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(144px, 320px));
+        \
+    }
+
 }
