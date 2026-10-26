@@ -6,11 +6,19 @@ a, button, input {
 }
 
 a {
-color: var(--accent);
-text-underline-offset: var(--spacing-s);
-text-decoration-thickness: 1px;
-}
+    color: var(--accent);
+    text-underline-offset: var(--spacing-xs);
+    text-decoration-thickness: 1px;
+    text-decoration: underline;
+    font-weight: 500;
 
-a:focus-visible {
-    text-decoration: none;
+    
+    &:focus-visible {
+        text-decoration: none;
+    }
+
+     &:hover {
+        text-decoration: none;
+    }
+
 }
