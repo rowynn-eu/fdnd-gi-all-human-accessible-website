@@ -1,5 +1,8 @@
 
-/* Stijling van controls */
+/* ****** */
+/* remedy */
+/* ****** */
+
 *:focus {
     outline-color: var(--accent);
 }
@@ -7,6 +10,10 @@
 button, input {
     cursor: pointer;
 }
+
+/* ****** */
+/* zoeken */
+/* ****** */
 
 label:has(input[type="search"]) {
     margin-top: 2em;
@@ -29,6 +36,11 @@ label:has(input[type="search"]) {
     }
 
 }
+
+
+/* ********** */
+/* skip-label */
+/* ********** */
 
 .skip {
     z-index: 20;

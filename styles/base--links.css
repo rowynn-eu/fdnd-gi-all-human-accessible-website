@@ -1,9 +1,15 @@
 
-/* Stijling van links / links die lijken op knoppen voor CTA */
+/* ********** */
+/* affordance */
+/* ********** */
 
 a, input {
     cursor: pointer;
 }
+
+/* ************** */
+/* links styling */
+/* ************* */
 
 a {
     color: var(--accent);

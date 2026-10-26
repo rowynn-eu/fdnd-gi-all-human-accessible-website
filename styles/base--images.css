@@ -1,11 +1,16 @@
 
-/* Stijling van afbeeldingen maar ook svg */
-
+/* ******* */
+/* styling */
+/* ******* */
 
 img, svg {
     max-width:100%;
     height: auto;
 }
+
+/* ***************** */
+/* iconen light/dark */
+/* ***************** */
 
 path {
     fill: var(--fg-0);

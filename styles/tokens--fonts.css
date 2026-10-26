@@ -1,5 +1,12 @@
 
-/* Husistijl fonts van de website... */
+/* *************************** */
+/* design tokens -- typografie */
+/* *****(********************* */
+
+
+/* ********** */
+/* sans-serif */
+/* ********** */
 
 @font-face {
   font-family: "Geist";
@@ -19,6 +26,9 @@
         url(../fonts/geist/Geist-Italic-VariableFont_wght.ttf) format(truetype);
 }
 
+/* *********************** */
+/* monospace met 'schreef' */
+/* *********************** */
 
 @font-face {
   font-family: "Geist Mono";

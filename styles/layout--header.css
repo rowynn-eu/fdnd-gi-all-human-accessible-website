@@ -1,5 +1,7 @@
 
-/* Header & kinderen element css */
+/* ******* */
+/* gheader */
+/* ******* */
 
 header {
     z-index: 1;
@@ -24,6 +26,11 @@ header {
         height: auto;
     }
 
+
+    /* *** */
+    /* nav */
+    /* *** */
+    
     nav {
         z-index: 2;
 
@@ -57,6 +64,10 @@ header {
             }
         }
     
+        /* *********** */
+        /* github knop */
+        /* *********** */
+
         a:nth-of-type(6) {
             order: 5;
             display: flex;
@@ -87,6 +98,10 @@ header {
 
     }
 
+        /* ************** */
+        /* hamburger menu */
+        /* ************** */
+
     button[id="mobile-menu"] {
        z-index: 3;
     
@@ -114,6 +129,11 @@ header {
         content: '🞫' / '';
         }
     }
+
+
+        /* ************** */
+        /* desktop modues */
+        /* ************** */
 
     @media (min-width: 900px) {
 
@@ -155,6 +175,10 @@ header {
 
             }
 
+            /* ******************* */
+            /* github knop desktop */
+            /* ******************* */
+
             a:nth-of-type(6) {
                 order: 5;
                 margin-bottom: 0;
@@ -183,12 +207,28 @@ header {
                 }
             }
 
-            @media (min-width: 1100px) {
+
+            /* ******************* */
+            /* voor grote schermen */
+            /* ******************* */
+
+            /* @media (min-width: 1200px) {
+                a:nth-of-type(6)::after {
+                content: 'Repo' / '';
+                margin-left:var(--spacing-s);
+                }
+            } */
+
+            /* ************* */
+            /* nog groter... */
+            /* ************* */
+            
+            /* @media (min-width: 2000px) {
                 a:nth-of-type(6)::after {
                 content: 'Repository' / '';
                 margin-left:var(--spacing-s);
                 }
-            }
+            } */
         }
 
     }
