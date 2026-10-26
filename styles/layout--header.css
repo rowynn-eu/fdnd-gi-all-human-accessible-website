@@ -37,9 +37,7 @@ header {
         grid-template: 1fr;
         justify-content: center;
         align-content: center;
-        gap: var(--spacing-l);
-        
-        
+        gap: var(--spacing-l);        
 
         a {
             color:var(--fg-0);
@@ -52,10 +50,15 @@ header {
             padding: var(--spacing-m);
             
             width: 304px;
+
+        &:hover, &:focus {
+                color: var(--accent);
+                background-color: var(--bg-0);
+            }
         }
     
         a:nth-of-type(6) {
-            order: -1;
+            order: 5;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -67,11 +70,18 @@ header {
                 margin-right:var(--spacing-s);
                 width: 2rem;
                 height: 2rem;
+
             }
 
             &::after {
-                content: 'Repository' / '';
+                content: '' / '';
                 margin-left:var(--spacing-s);
+            }
+
+            &:hover {
+                path {
+                    fill:var(--accent);
+                }
             }
         }
 
@@ -89,6 +99,7 @@ header {
         content:'☰' / '';
         padding-right: 0.25em;
        }
+
     }
 
     .--mobile-menu-is-open {
@@ -133,10 +144,19 @@ header {
                 
                 width: unset;
 
+                &:hover {
+                    color: var(--accent);
+                    text-decoration: underline;
+                }
+
+                &:focus {
+                color:var(--accent);    
+                }
+
             }
 
             a:nth-of-type(6) {
-                order: 0;
+                order: 5;
                 margin-bottom: 0;
                 margin-left: 0em;
                 
@@ -152,7 +172,11 @@ header {
                         fill:var(--bg-0);
                     }
                 }
-                
+                &:hover {
+                    path {
+                        fill:var(--bg-0);
+                    }
+                }
                 &::after {
                     content: '';
                     margin-left:0;
