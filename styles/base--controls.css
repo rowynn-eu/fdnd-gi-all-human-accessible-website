@@ -24,11 +24,15 @@ label:has(input[type="search"]) {
         height: 3em;
     }
 
+    input[type="search"] {
+        padding-left: 1em;
+    }
+
 }
 
 .skip {
     z-index: 20;
-    padding: 1em 1em;
+    padding: var(--spacing-m);
     display: block;
     position: fixed;
     translate: -200%;
