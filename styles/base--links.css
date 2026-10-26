@@ -1,7 +1,7 @@
 
 /* Stijling van links / links die lijken op knoppen voor CTA */
 
-a, button, input {
+a, input {
     cursor: pointer;
 }
 

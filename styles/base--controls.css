@@ -4,6 +4,10 @@
     outline-color: var(--accent);
 }
 
+button, input {
+    cursor: pointer;
+}
+
 label:has(input[type="search"]) {
     margin-top: 2em;
 
