@@ -3,6 +3,26 @@
 
 footer {
 
-    margin: var(--spacing-m)
+    color: var(--bg-0);
+    background-color:var(--accent);
+
+    display: grid;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, 288px);
+    justify-content: space-around;
+
+    section {
+        margin: var(--spacing-m);
+    }
+
+    a {
+        color:var(--bg-0);
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
 
 }

@@ -2,14 +2,25 @@
 /* Main element & kinderen css. */
 
 main {
+
     display:grid;
     grid-template-columns: 1fr;
-    place-items: center;
+    justify-content: center;
 
-    margin: var(--spacing-m)
+    margin: var(--spacing-m);
+
+    hgroup {
+
+        max-width: 80ch;
+    }
+
+
+    section {
+        padding-bottom: var(--spacing-xl);
+    }
+
 }
 
 
-span {
-    color: var(--accent);
-}
+
+

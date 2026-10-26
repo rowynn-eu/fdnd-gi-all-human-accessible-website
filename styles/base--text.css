@@ -18,6 +18,10 @@ p, a, em, ol, ul {
     font-weight: 400;
 }
 
+p, li {
+    max-width: 90ch;
+}
+
 article, section {
     text-wrap: pretty;
 }
@@ -25,4 +29,8 @@ article, section {
 *::selection {
     color: var(--bg-0);
     background: var(--accent);
+}
+
+span {
+    color: var(--accent);
 }
