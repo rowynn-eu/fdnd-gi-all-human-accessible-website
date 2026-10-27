@@ -71,7 +71,7 @@
         <!-- MAIN -->
         <!-- **** -->
 
-        <main>
+        <main id="main">
             <hgroup>
                 <h1>
                 Een <span>open en rechtenvrij</span> iconenset, 
@@ -127,6 +127,47 @@
                     <p>Liever lokaal? Download de complete set als ZIP-bestand.</p>
                     <a href="https://github.com/OpenGemeenten/Iconenset/archive/refs/heads/master.zip">Download de iconenset</a>
                 </article>
+            </section>
+
+            <section>
+                <h2>Iconenoverzicht</h2>
+                <form action="./iconen.html" method="get" target="_self" role="search">
+                    <label class="hidden" for="zoeken">Zoeken</label>
+                    <input type="search" id="zoeken" placeholder="Zoek een icoon... (bv. afval, paspoort, parkeren)" name="q">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                        <path d="m40.43 35.48-10.4-10.37a1.983 1.983 0 0 0-2.82 0l-.35.35-1.28-1.28a10.45 10.45 0 0 0 2.42-6.7c0-5.79-4.71-10.5-10.5-10.5S7 11.69 7 17.48s4.71 10.5 10.5 10.5c2.53 0 4.85-.9 6.66-2.39l1.28 1.28-.35.35c-.78.78-.78 2.05 0 2.83l10.4 10.37c.39.39.9.59 1.41.59s1.02-.2 1.41-.59l2.12-2.12a1.983 1.983 0 0 0 0-2.82Zm-22.94-9.49c-4.69 0-8.5-3.81-8.5-8.5s3.81-8.5 8.5-8.5 8.5 3.81 8.5 8.5-3.81 8.5-8.5 8.5Zm11.13.53 6.99 6.96-2.12 2.12-6.99-6.96 2.12-2.12Zm8.28 12.49-2-2 2.12-2.12 2 2-2.12 2.12Z"/>
+                    </svg>
+                </form>
+
+                <fieldset>
+                    <legend>Variant</legend>
+                    <label>Line: <input type="radio" name=""></label>
+                    <label>Regular: <input type="radio" name=""></label>
+                    <label>Fill: <input type="radio" name=""></label>
+                    <label>Diapositive: <input type="radio" name=""></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Thema</legend>
+                    <label>Alles: <input type="checkbox" checked="true" name="thema"></label>
+                    <label>Burgerzaken: <input type="checkbox" name="thema"></label>
+                    <label>Buurtzaken:<input type="checkbox" name="thema"></label>
+                    <label>Duurzaamheid: <input type="checkbox" name="thema"></label>
+                    <label>Geldzaken: <input type="checkbox" name="thema"></label>
+                    <label>Informatief:<input type="checkbox" name="thema"></label>
+                    <label>Meldingen:<input type="checkbox" name="thema"></label>
+                    <label>Ondersteuning: <input type="checkbox" name="thema"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sorteren</legend>
+                    <label for="a-z">A-Z: <input type="radio" id="a-z" name="sorting"></label>
+                    <label for="z-a">Z-A: <input type="radio" id="z-a" name="sorting"></label>
+                    <label for="recent">Recent:<input type="radio" id="recent" name="sorting"></label>
+                </fieldset>
+
+                <label for="icon-color">Hexcode: <input type="color" name="icon-color" value="#333333"></label>
+
             </section>
         </main>
 
