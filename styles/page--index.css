@@ -146,16 +146,37 @@ main {
     /* illustraties cta */
     /* **************** */
 
-    section > div:nth-of-type(1) {
+    section:nth-of-type(3) {
 
-        display: grid;
-        grid-template-columns: 
-        repeat(auto-fit, clamp(9rem, -0.2632rem + 46.3158vw, 20rem));
+        > div:nth-of-type(1) {
 
-        justify-content: center;
-        align-items: center;
-        
+                display: grid;
+                grid-template-columns: 
+                repeat(auto-fit, clamp(9rem, -0.2632rem + 46.3158vw, 20rem));
 
+                justify-content: center;
+                align-items: center;
+
+            }
+        a {
+            display: block;
+
+            color: var(--bg-0);
+            background-color: var(--accent);
+
+            width: 288px;
+            padding: var(--spacing-m);
+            border-radius: var(--spacing-xs);
+            
+            text-align: center;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
     }
+
+
 
 }
