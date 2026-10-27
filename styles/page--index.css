@@ -111,7 +111,7 @@ main {
                 margin-right: auto;
             }  
 
-            a {
+            > a {
                 display: block;
 
                 color: var(--bg-0);

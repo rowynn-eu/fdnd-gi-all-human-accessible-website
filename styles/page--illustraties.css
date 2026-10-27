@@ -29,7 +29,7 @@ main {
                 margin-right: auto;
             }  
             
-            a {
+            > a {
                 display: block;
 
                 color: var(--bg-0);
@@ -58,5 +58,10 @@ main {
 
             
         }
+    }
+
+    section:nth-of-type(2) {
+        margin-top: var(--spacing-xxl);
+        border: 1px solid red;
     }
 }
