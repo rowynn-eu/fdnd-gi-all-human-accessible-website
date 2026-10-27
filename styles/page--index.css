@@ -5,6 +5,10 @@
 
 main {
 
+    section {
+        margin-bottom: var(--spacing-xxl);
+    }
+
     /* ****** */
     /* stats? */
     /* ****** */

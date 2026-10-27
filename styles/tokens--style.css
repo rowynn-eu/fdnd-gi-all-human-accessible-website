@@ -7,7 +7,7 @@
 
 *, ::before, ::after { 
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -17,7 +17,7 @@
     --spacing-m: 1rem;
     --spacing-l: 2rem;
     --spacing-xl: 3rem;
-    --spacing-xll: 4rem;
+    --spacing-xxl: 4rem;
 }
 
 img,

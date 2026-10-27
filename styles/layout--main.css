@@ -17,10 +17,10 @@ main {
     }
 
 
-    section {
-        padding-bottom: var(--spacing-xll);
+    @media (min-width: 900px) {
+        max-width: 900px;
+        justify-self: center;
     }
-
 }
 
 
