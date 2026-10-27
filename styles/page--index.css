@@ -99,6 +99,7 @@ main {
         grid-template-columns: 1fr;
         gap: var(--spacing-m);
 
+
         article {
             display: flex;
             flex-direction: column;

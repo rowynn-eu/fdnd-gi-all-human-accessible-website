@@ -13,6 +13,8 @@ main {
         display: grid;
         grid-template-columns: 1fr;
         gap: var(--spacing-m);
+        
+        padding-bottom: var(--spacing-l);
 
         border-top: 1px solid var(--fg-0);
         border-bottom: 1px solid var(--fg-0);
@@ -84,16 +86,16 @@ main {
                 border: 1px solid var(--fg-0);
                 border-radius: var(--spacing-xs);
                 transition:
-                    transform 0.25s ease,
-                    box-shadow 0.25s ease;
+                    transform 0.1s ease,
+                    box-shadow 0.1s ease;
+
+                &:hover, &:focus {
+                    text-decoration-line: underline;
+                    transform: translateY(-0.5em);
+                }
 
                 &:hover {
-                    text-decoration-line: underline;
                     box-shadow: 0.25em 0.25em 0em 0em;
-                    transform: translateY(-0.5em);
-                    transition:
-                        transform 0.3s ease,
-                        box-shadow 0.1s ease;
                 }
                 
                 img {
