@@ -4,7 +4,7 @@
 /* ************ */
 
 main {
-    
+
     /* ******************* */
     /* maak er gebruik van */
     /* ******************* */
@@ -21,14 +21,14 @@ main {
             display: flex;
             flex-direction: column;
 
-            svg {
+            svg, img {
                 height: 3em;
                 width: auto;
                 order:-1;
 
                 margin-right: auto;
             }  
-
+            
             a {
                 display: block;
 
