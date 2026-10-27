@@ -21,10 +21,12 @@ a {
     
     &:focus-visible {
         text-decoration: none;
+        translate: 0 -1px;
     }
 
      &:hover {
         text-decoration: none;
+        translate: 0 -1px;
     }
 
 }

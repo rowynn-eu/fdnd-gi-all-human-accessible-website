@@ -62,11 +62,20 @@ main {
         }
     }
 
+    /* (((******************* */
+    /* illustraties overzicht */
+    /* ***(((**************** */
+
     section:nth-of-type(2) {
         margin-top: var(--spacing-xxl);
 
         width: 100%;
         text-wrap: pretty;
+
+        section {
+            padding-top: var(--spacing-m);
+            padding-bottom: var(--spacing-m);
+        }
 
         ul {
             list-style: none;
@@ -81,21 +90,25 @@ main {
             a {
                 display: flex;
                 flex-direction: column;
+
                 text-decoration: none;
+
                 padding: var(--spacing-m);
+                
                 border: 1px solid var(--fg-0);
                 border-radius: var(--spacing-xs);
+                
                 transition:
                     transform 0.1s ease,
                     box-shadow 0.1s ease;
 
                 &:hover, &:focus {
                     text-decoration-line: underline;
-                    transform: translateY(-0.5em);
+                    translate: 0 -0.2em;
                 }
 
                 &:hover {
-                    box-shadow: 0.25em 0.25em 0em 0em;
+                    box-shadow: 0.25em 0.25em 0em 0em var(--accent);
                 }
                 
                 img {

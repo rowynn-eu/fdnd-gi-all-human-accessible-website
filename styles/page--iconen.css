@@ -62,4 +62,96 @@ main {
             
         }
     }
+
+    /* ******************* */
+    /* ICONEN OVERZICHFT */
+    /* ******************* */
+
+    section:nth-of-type(2) {
+
+        /* ******** */
+        /* CONTROLS */
+        /* ******** */
+
+
+
+        /* ****************** */
+        /* GRID LAYOUT ICONEN */
+        /* ******************* */
+            
+        ul {
+            list-style: none;
+            padding-left: 0;
+
+            display:grid;
+            grid-template-columns: repeat(auto-fit, 128px);
+            justify-content: center;
+            align-items: center;
+            gap: var(--spacing-m);
+
+            /* ****** */
+            /* BUTTON */
+            /* ****** */
+
+            button {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                width: 128px;
+                height: 128px;
+
+                color: var(--fg-0);
+                background-color: var(--bg-0);
+
+                border: calc(1px / 2) solid var(--fg-2);
+                border-radius: var(--spacing-xs);
+
+                transition:
+                    transform 0.1s ease,
+                    box-shadow 0.1s ease;
+
+                &:hover, &:focus {
+                    text-decoration-line: underline;
+                    translate: 0 -0.2em;
+                }
+
+                &:hover {
+                    box-shadow: 0.25em 0.25em 0em 0em var(--accent);
+                }
+
+                /* *** */
+                /* SVG */
+                /* *** */
+
+                > svg {
+                    fill: var(--fg-0);
+                    aspect-ratio: 1 / 1;
+                    width: 50%;
+                    height: 50%;
+                }
+
+                /* **** */
+                /* TEXT */
+                /* **** */
+
+                > span {
+                    
+                    display: block;                   
+
+                    color: var(--fg-0);
+
+                    width: 100px;
+
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+
+            }
+
+        }
+    }
 }
