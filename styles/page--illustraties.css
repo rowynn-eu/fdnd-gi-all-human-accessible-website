@@ -9,7 +9,7 @@ main {
     /* maak er gebruik van */
     /* ******************* */
 
-    section:nth-of-type(1) {
+    > section:nth-of-type(1) {
         display: grid;
         grid-template-columns: 1fr;
         gap: var(--spacing-m);
@@ -62,6 +62,46 @@ main {
 
     section:nth-of-type(2) {
         margin-top: var(--spacing-xxl);
-        border: 1px solid red;
+
+        width: 100%;
+        text-wrap: pretty;
+
+        ul {
+            list-style: none;
+            margin-left: 0;
+
+            display: grid;
+            grid-template-columns: repeat(auto-fit, 288px);
+            align-items: center;
+
+            gap: var(--spacing-m);
+
+            a {
+                display: flex;
+                flex-direction: column;
+                text-decoration: none;
+                padding: var(--spacing-m);
+                border: 1px solid var(--fg-0);
+                border-radius: var(--spacing-xs);
+                transition:
+                    transform 0.25s ease,
+                    box-shadow 0.25s ease;
+
+                &:hover {
+                    text-decoration-line: underline;
+                    box-shadow: 0.25em 0.25em 0em 0em;
+                    transform: translateY(-0.5em);
+                    transition:
+                        transform 0.3s ease,
+                        box-shadow 0.1s ease;
+                }
+                
+                img {
+                    width: min(100%, 30em);
+                    justify-self: start;
+                    align-self: start;
+                }
+            }
+        }
     }
 }
