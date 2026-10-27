@@ -5,6 +5,10 @@
 
 main {
 
+    ul {
+        list-style: none;
+    }
+
     section {
         margin-bottom: var(--spacing-xxl);
     }
