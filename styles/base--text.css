@@ -21,13 +21,17 @@ h1 {
     font-size: clamp(1.75rem, 1.1346rem + 3.0769vw, 2rem);
 }
 
-p, a, em, ol, ul, strong {
+p, a, ol, ul, strong, em {
     font-family: "Geist Mono", serif;
     font-weight: 500;
 }
 
 p, li {
     max-width: 90ch;
+}
+
+strong {
+    font-weight: 700;
 }
 
 article, section {
