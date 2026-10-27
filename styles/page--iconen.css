@@ -72,7 +72,40 @@ main {
         /* ******** */
         /* CONTROLS */
         /* ******** */
+        
+        div {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 25%));
+            justify-content: space-between;
+            gap: var(--spacing-s);
 
+            fieldset {
+                display: flex;
+                flex-direction:  column;
+                padding: 0;
+
+                legend {
+                    display: block;
+                    color: var(--bg-0);
+                    background-color: var(--accent);
+
+                    width: 100%;
+                }
+
+                label {
+                    width: 100%;
+                }
+            }
+
+            > label {
+
+                input {
+                height: 90%;
+                width: 50%;
+                }
+
+            }
+        }
 
 
         /* ****************** */
