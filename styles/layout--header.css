@@ -117,7 +117,7 @@ header {
 
     }
 
-    .--mobile-menu-is-open {
+    .--mobile-menu-is-open, nav:focus-within {
         translate:0;
     }
 
