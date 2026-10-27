@@ -6,19 +6,21 @@
 main {
 
     display:grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     justify-content: center;
+    align-items: center;
 
     margin: var(--spacing-m);
 
-    hgroup {
 
+
+    hgroup {
         max-width: 80ch;
     }
 
 
     @media (min-width: 900px) {
-        max-width: 900px;
+        width: 900px;
         justify-self: center;
     }
 }
