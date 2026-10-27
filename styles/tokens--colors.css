@@ -6,8 +6,8 @@
 :root {
     color-scheme: light dark;
     --fg-0: light-dark(#333, #fff);
-    --fg-1: light-dark(#666,#aaa);
+    --fg-1: light-dark(#666,#ccc);
     --bg-0: light-dark(#fff, #333);
-    --bg-1: light-dark(#ddd, #555);
+    --bg-1: light-dark(#eee, #666);
     --accent: light-dark(#1F4DD6, #A3B8F5);
 }
