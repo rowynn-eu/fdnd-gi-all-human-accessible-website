@@ -50,7 +50,7 @@ form:has(input[type="search"]) {
     translate: -200%;
     
      &:focus {
-        outline-color: var(--fg-1);
+        outline-color: var(--fg-2);
         color: var(--bg-0) ;
         background-color: var(--accent);
         translate: unset;

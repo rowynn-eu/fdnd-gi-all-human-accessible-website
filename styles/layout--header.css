@@ -123,7 +123,7 @@ header {
 
     &:has(.--mobile-menu-is-open) button[id="mobile-menu"]{
         color: var(--fg-0);
-        background-color: var(--bg-1);
+        background-color: var(--bg-2);
        
         &::before {
         content: '🞫' / '';
