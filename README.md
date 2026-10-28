@@ -1,4 +1,4 @@
-# Gemeenteniconen.nl Redesign - WCAG
+# Gemeenteniconen.nl Redesign - All Human / a11y website
 
 Ontwerp en maak voor een opdrachtgever een website toegankelijk volgens WCAG richtlijnen.
 
@@ -12,6 +12,17 @@ Ontwerp en maak voor een opdrachtgever een website toegankelijk volgens WCAG ric
 
 ## Beschrijving
 
+<img width="auto" height="300" alt="Screenshot 2026-10-28 at 10 30 34" src="https://github.com/user-attachments/assets/8a2bb81f-2a68-4580-9f89-cb7894f3268c" />
+<img width="auto" height="300" alt="Screenshot 2026-10-28 at 11 15 00" src="https://github.com/user-attachments/assets/e08a3e48-063b-45c9-b77a-3c361be9f080" />
+<img width="auto" height="300" alt="Screenshot 2026-10-28 at 11 17 40" src="https://github.com/user-attachments/assets/865df9d7-6c0f-4383-8966-f61595282435" />
+
+
+## Gebruik
+
+De website is bedoeld voor ontwikkelaars, ontwerpers, en mensen die verantwoordelijk zijn
+voor duidelijke overheidscommunicatie tussen gemeente en burger. Je kan open en rechtenvrije iconen vinden en illustraties die gemeentes, maar ook derde partijen kunnen gebruiken voor hun huisstijl zonder dat ze zelf deze iconen of illustraties hoeven te maken.
+
+De illustraties kunnen ingeladen worden in een Figma bestand, en de iconen kunnen gedownload worden of in zijn geheel geladen in de repository.
 
 ## Kenmerken
 
