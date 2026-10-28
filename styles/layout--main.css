@@ -12,8 +12,6 @@ main {
 
     margin: var(--spacing-m);
 
-
-
     hgroup {
         max-width: 80ch;
     }
