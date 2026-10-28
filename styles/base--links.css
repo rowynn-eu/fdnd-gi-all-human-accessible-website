@@ -27,6 +27,7 @@ a {
      &:hover {
         text-decoration: none;
         translate: 0 -1px;
+        outline: var(--fg-0);
     }
 
 }

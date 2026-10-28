@@ -3,8 +3,9 @@
 /* remedy */
 /* ****** */
 
-*:focus {
-    outline-color: var(--accent);
+*:focus, *:focus-visible, *:focus-within {
+    outline-offset: 0.25em;
+    outline-width: thick;
 }
 
 button, input {
@@ -59,7 +60,7 @@ form:has(input[type="search"]) {
     translate: -200%;
     
      &:focus {
-        outline-color: var(--fg-2);
+        outline-color: var(--fg-0);
         color: var(--bg-0) ;
         background-color: var(--accent);
         translate: unset;
