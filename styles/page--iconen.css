@@ -119,12 +119,22 @@ main {
                 background-color: var(--accent);
 
                 input {
+                    /* all: unset; */
                     height: 100%;
                     width: 100%;
+                    outline: none;
+                    border: none;
+                    padding: 0;
+
+                    /* ty joost faber */
+                    &::-webkit-color-swatch {
+                        border: none;
+                    }
+                    &::-webkit-color-swatch-wrapper {
+                        padding: 0;
+                        margin: 0;
+                    }
                     
-                    padding:    none;
-                    border:     none;
-                    outline:    none;
                 }
             }
   
