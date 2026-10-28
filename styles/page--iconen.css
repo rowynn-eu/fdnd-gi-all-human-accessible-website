@@ -73,13 +73,63 @@ main {
         /* CONTROLS */
         /* ******** */
         
-        div {
+        > div {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 25%));
+            grid-template-columns: repeat(auto-fit, 144px);
             justify-content: space-between;
             gap: var(--spacing-s);
+            
+            /* rushjob moet naar base--control.css sprint 3 */
 
-            fieldset {
+            > div {
+                display:flex;
+                flex-direction: column;
+
+                label {
+                    color:var(--bg-0);
+                    background-color: var(--accent);
+
+                    padding: var(--spacing-s);
+                }
+
+                select, ::picker(select) {
+                    appearance: base-select;
+                    background-color: color-mix(in srgb, var(--bg-0) 88%, var(--accent) 12%);
+
+                    border-radius: 0;
+                    border:1px solid var(--fg-1);
+                    
+
+                }
+
+            }
+            
+            /* *********** */
+            /* kleur input */
+            /* *********** */
+
+            > label {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+
+                padding: var(--spacing-s);
+            
+                color:var(--bg-0);
+                background-color: var(--accent);
+
+                input {
+                    height: 100%;
+                    width: 100%;
+                    
+                    padding:    none;
+                    border:     none;
+                    outline:    none;
+                }
+            }
+  
+
+            /* fieldset {
                 display: flex;
                 flex-direction:  column;
                 padding: 0;
@@ -104,7 +154,7 @@ main {
                 width: 50%;
                 }
 
-            }
+            } */
         }
 
 

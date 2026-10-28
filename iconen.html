@@ -44,7 +44,7 @@
                 <img src="./assets/logo-light.svg" alt="Gemeenteniconen.nl home">
             </picture>
             </a>
-            <button id="mobile-menu" type="button" >Menu</button>
+            <button id="mobile-menu" type="button">Menu</button>
 
             <nav>
                 <a href="./iconen.html"><strong>Iconen</strong></a>
@@ -157,38 +157,48 @@
                 <div>
 
                     <!-- Iconen Variant radio -->
-                    <fieldset>
-                        <legend>Variant</legend>
-                        <label>Line: <input type="radio" name="variant" checked="true"></label>
-                        <label>Regular: <input type="radio" name="variant"></label>
-                        <label>Fill: <input type="radio" name="variant"></label>
-                        <label>Diapositive: <input type="radio" name="variant"></label>
-                    </fieldset>
-                    
+
+                    <div>
+                        <label for="select--variant">Variant</label>
+                        <select id="select--variant" name="varianten">
+                            <option value="line" selected>Line</option>
+                            <option value="regular">Regular</option>
+                            <option value="fill">Fill</option>
+                            <option value="diapositive">Diapositive</option>
+                        </select>
+                    </div>                
 
                     <!-- Thgem Checkbox -->
-                    <fieldset>
-                        <legend>Thema</legend>
-                        <label>Alles: <input type="checkbox" name="thema" checked="true"></label>
-                        <label>Burgerzaken: <input type="checkbox" name="thema"></label>
-                        <label>Buurtzaken:<input type="checkbox" name="thema"></label>
-                        <label>Duurzaamheid: <input type="checkbox" name="thema"></label>
-                        <label>Geldzaken: <input type="checkbox" name="thema"></label>
-                        <label>Informatief:<input type="checkbox" name="thema"></label>
-                        <label>Meldingen:<input type="checkbox" name="thema"></label>
-                        <label>Ondersteuning: <input type="checkbox" name="thema"></label>
-                    </fieldset>
+
+                    <div>
+                        <label for="select--thema">Thema</label>
+                        <select id="select--thema" name="themas">
+                            <option value="alles" selected >Alles</option>
+                            <option value="burgerzaken">Burgerzaken</option>
+                            <option value="buurtzaken">Buurtzaken</option>
+                            <option value="duurzaamheid">Duurzaamheid</option>
+                            <option value="Geldzaken">Geldzaken</option>
+                            <option value="Informatief">Informatief</option>
+                            <option value="Meldingen">Meldingen</option>
+                            <option value="Ondersteuning">Ondersteuning</option>
+                        </select>
+                    </div>
+
 
                     <!-- Sorteren radio -->
-                    <fieldset>
-                        <legend>Sorteren</legend>
-                        <label>A-Z: <input type="radio" id="a-z" name="sorteren" checked="true"></label>
-                        <label>Z-A: <input type="radio" id="z-a" name="sorteren"></label>
-                        <label>Recent: <input type="radio" id="recent" name="sorteren"></label>
-                    </fieldset>
+
+                    <div>
+                        <label for="select--sorteren">Sorteren</label>
+                        <select id="select--sorteren" name="sorteren">
+                            <option value="a-z" selected>A-Z</option>
+                            <option value="z-a">Z-A</option>
+                            <option value="recent">Recent</option>
+                        </select>
+                    </div>
+
 
                     <!-- Hexkleiur -->
-                    <label><input type="color" name="kleur" value="#333333">Hexcode</label>
+                    <label for="select--kleur">Hexcode<input type="color" name="select--kleur" value="#333333"></label>
 
                 </div>
 
