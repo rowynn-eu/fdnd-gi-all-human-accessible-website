@@ -3,9 +3,18 @@
 /* remedy */
 /* ****** */
 
-*:focus, *:focus-visible, *:focus-within {
-    outline-offset: 0.25em;
-    outline-width: thick;
+*:focus, *:focus-visible {
+    color: var(--fg-0);
+    background-color: var(--bg-0);
+    outline-style: solid;
+    outline-color: var(--fg-0);
+    outline-width: var(--spacing-xs);
+    outline-offset: 0;
+
+    &a:not(a svg) {
+        color: var(--bg-0);
+        background-color: var(--fg-0);
+    }
 }
 
 button, input {
@@ -46,23 +55,21 @@ form:has(input[type="search"]) {
 
 
 
-
-
 /* **********************************&***************** */
 /* skip-label /visually-hdiden a.d.h.v. ischa we <3 web */
 /* **************************************************** */
 
 .skip {
     z-index: 20;
-    padding: var(--spacing-m);
+    padding: var(--spacing-xs);
     display: block;
     position: fixed;
     translate: -200%;
     
      &:focus {
-        outline-color: var(--fg-0);
+        outline-color: var(--bg-0);
         color: var(--bg-0) ;
-        background-color: var(--accent);
+        background-color: var(--fg-0);
         translate: unset;
     }
 }
