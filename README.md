@@ -2,8 +2,8 @@
 
 Ontwerp en maak voor een opdrachtgever een website toegankelijk volgens WCAG richtlijnen.
 
-Huidige versie: https://rowynn-eu.github.io/fdnd-gi-all-human-accessible-website/
-Eerste versie: https://rowynn-eu.github.io/fdnd-gi-client-website/
+- Huidige versie: https://rowynn-eu.github.io/fdnd-gi-all-human-accessible-website/
+- 1ste versie: https://rowynn-eu.github.io/fdnd-gi-client-website/
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
