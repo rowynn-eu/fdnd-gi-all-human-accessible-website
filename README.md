@@ -45,15 +45,6 @@ De website is gebouwd met [HTML](#HTML), [CSS](#CSS) en [JavaScript](#JavaScript
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/23b3ddd0-76fd-4aea-9dbc-4e79a34b91b6" />
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/a5f30e46-5b51-4c00-8591-482250b3d1cd" />
 
-
-### CSS
-
-#### Design tokens
-
-### JS
-
-#### Contrast Toggle
-
 ## Bronnen
 
 MDN
